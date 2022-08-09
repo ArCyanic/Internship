@@ -67,7 +67,7 @@ diffs: Dict[str, List] = {'add': [], 'delete': [], 'former': [], 'latter': []}
 
 ```python
 def diff():
-		os.chdir('/usr/local/projects/django/testCenter/testMonitor/oerv_obsdata') # change dir
+  	os.chdir('/usr/local/projects/django/testCenter/testMonitor/oerv_obsdata') # change dir
     os.system('git pull') # update repository
     os.system('git log --pretty=format:"%cd,%H,%s" --date=format:"%Y%m%d" --after="{}" > ./commitlog.txt'.format(date_after))	# generate commit log file
     {
@@ -86,10 +86,17 @@ def diff():
     return res
 ```
 
-## 代码示例
+## 完整代码示例
+
+以下为Django工程部分实例代码，用户需要改变部分路径和变量
 
 ```python
-def getDiffs(request):
+import os
+import pandas as pd
+from typing import List, Dict
+import string
+
+def getDiffs():
     # change path for both os and file operation
     os.chdir('/usr/local/projects/django/testCenter/testMonitor/oerv_obsdata')
 
