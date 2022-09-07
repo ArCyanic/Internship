@@ -24,7 +24,7 @@
   
 - Package搜索
 
-  ![image-20220907234043211](../../../../../Library/Application%20Support/typora-user-images/image-20220907234043211.png)
+  ![image-20220907234043211](https://raw.githubusercontent.com/ArCyanic/Gener/master/image-20220907234043211.png)
 
   在搜索框内输入包名，点击搜索即可。
   
