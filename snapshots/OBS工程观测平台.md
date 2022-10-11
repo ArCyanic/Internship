@@ -1,3 +1,19 @@
+# 2022.9
+
+新增两个页面，从时间空间两个维度分析仓库的包构建情况
+
+- 空间：最近一次更新的两个仓库的包构建状态比较
+
+  ![image-20221009004225278](https://raw.githubusercontent.com/ArCyanic/Gener/master/image-20221009004225278.png)
+
+  比较结果根据以包为单位，分别为差异项，相同项，单独项。
+
+- 时间：当前某个仓库中不同两个时间的包构建状态比较
+
+  ![image-20221009004147372](https://raw.githubusercontent.com/ArCyanic/Gener/master/image-20221009004147372.png)
+
+  新增包用绿色表示，删除了的包用红色表示，状态不发生变化不展示，发生变化以箭头表示变化方向。
+
 # 2022.8
 
 - Overview
